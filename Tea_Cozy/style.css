@@ -1,0 +1,132 @@
+body {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: #000;
+  opacity: .9;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 5;
+  background-color: #000;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  position: relative;
+  right: 20px;
+}
+nav span {
+  font-size: 22px;
+  text-decoration: underline;
+  margin: 0 7px;
+}
+
+section, footer {
+  position: relative;
+  top: 70px;
+  z-index: 4;
+}
+
+/* ******* next section ******* */
+.our_mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  align-items: center;
+}
+
+.our_mission h2, h4 {
+  margin: 0;
+}
+
+.our_mission article {
+  background-color: #000;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* ******* next section ******* */
+section.tea_of_the_month {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.tea_of_the_month article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea_of_the_month img {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  background-color: white;
+}
+
+.tea_of_the_month div {
+  margin: 10px 0;
+}
+
+/* ******* next section ******* */
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("./images/img-locations-background.jpg");
+  align-content: center;
+}
+
+.locations article {
+  display: flex;
+  justify-content: center;
+}
+
+.locations div {
+  margin: 15px 20px;
+  width: 300px;
+  background-color: #000;
+}
+
+.locations h4 {
+  font-weight: normal;
+  line-height: 3.5em;
+}
+
+/* ******* next section ******* */
+.bottom {
+  height: 200px;
+}
+
+/* ******* next section ******* */
+footer {
+  padding: 20px;
+}
+
+#left {
+  text-align: left;
+}
